@@ -1,0 +1,100 @@
+html {
+    background-color: rgb(224, 212, 202);
+    height: 100%; /* define que altura da página vai ser a altura do monitor */
+}
+
+body {
+    margin: 0px; /* define o espaçamento externo */
+    justify-content:space-between;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/imgs/pizzaria-contato.jpg');
+    background-size:80%;
+    background-position: top;
+    width: auto;
+    height:100%;
+}
+
+.nav {
+    background-color: rgb(124, 1, 1);
+}
+
+.nav-lista {
+    display: flex; /* deixa os elementos de um grupo pai, flexíveis */
+    list-style: none; /* tira a decoração da lista */
+    color: white; /* altera a cor do texto de todos os elementos filhos */
+    padding: 10px 0px; /* coloca espaçamentos internos cima-baixo de 10px e direita-esquerda de 0px */
+    margin: 0px; /* retira os espaçamentos externos */
+    justify-content:space-around; /* define espaçamentos entre os elementos filhos */
+    font-size: 20px; /* altera o tamanho da fonte */
+    font-weight: bold; /* altera o peso da fonte */
+}
+
+.botao {
+    border-radius: 5px;
+    background-color: rgb(234, 129, 24);
+    color: white;
+    border: rgb(234, 129, 24);
+}
+
+.botao:hover {
+    background-color: rgb(165, 86, 8);
+}
+
+.botao-contato-Whtspp {
+    border-radius: 5px;
+    border: 2px solid rgb(166, 218, 151);
+    margin: 30px;
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 30px;
+    padding-left: 30px; /* Espaço para o ícone à esquerda do texto */
+    background-image:  url('/imgs/whatsapp-icon.png'); /* Substitua pelo caminho do seu ícone */
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position: 40% center; /* Ajuste a posição do ícone conforme necessário */
+}
+
+.botao-contato-Whtspp:hover {
+    background-color: rgb(91, 219, 52);
+}
+
+.botao-contato-instagram {
+    border-radius: 5px;
+    border: 2px solid rgb(226, 179, 224);
+    margin: 30px;
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 30px;
+    padding-left: 30px; /* Espaço para o ícone à esquerda do texto */
+    background-image:  url('/imgs/instagram-icon.png'); /* Substitua pelo caminho do seu ícone */
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position: 40% center; /* Ajuste a posição do ícone conforme necessário */
+}
+
+.botao-contato-instagram:hover {
+    background-color: rgb(219, 55, 211);
+}
+
+.contato {
+    display: flex;
+    justify-content:center; /* Centraliza horizontalmente */
+    align-items:center; /* Centraliza verticalmente */
+    flex-direction:column;
+    height:100%; /* Ajusta a altura da div para ocupar a altura total da tela, se desejado */
+}
+
+.contato-lista {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(124, 1, 1);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

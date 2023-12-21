@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 html {
     background-color: rgb(224, 212, 202);
     height: 100%; /* define que altura da página vai ser a altura do monitor */
@@ -9,7 +11,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url('/imgs/background-pizzaria.jpg');
+    background-image: url('/imgs/pizza-fatia.jpg');
     background-size: cover;
     background-position: top;
     width: auto;
@@ -33,7 +35,7 @@ body {
 
 .titulo-site {
     text-align: center; /* centraliza o texto na página */
-    font-family:;
+    font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     color: rgb(242, 187, 24);
     font-weight: bolder;
@@ -60,5 +62,5 @@ footer {
     background-color: rgb(124, 1, 1);
     color: white;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
