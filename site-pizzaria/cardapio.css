@@ -11,7 +11,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url('/imgs/background-pizzaria.jpg');
+    background-image: url('/site-pizzaria/imgs/background-pizzaria.jpg');
     background-size: cover;
     background-position: top;
     width: auto;

@@ -9,7 +9,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url('/imgs/pizzaria-contato.jpg');
+    background-image: url('/site-pizzaria/imgs/pizzaria-contato.jpg');
     background-size:80%;
     background-position: top;
     width: auto;

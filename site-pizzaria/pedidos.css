@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 html {
     background-color: rgb(224, 212, 202);
     height: 100%; /* define que altura da página vai ser a altura do monitor */
@@ -29,6 +31,17 @@ body {
     justify-content:space-around; /* define espaçamentos entre os elementos filhos */
     font-size: 20px; /* altera o tamanho da fonte */
     font-weight: bold; /* altera o peso da fonte */
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: rgb(242, 187, 24);
+    font-weight: bolder;
+    position:absolute;
+    width: 100%;
+    top: 120px;
 }
 
 .botao {

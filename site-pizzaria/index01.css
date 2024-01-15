@@ -11,7 +11,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url('/imgs/pizza-fatia.jpg');
+    background-image: url('/site-pizzaria/imgs/pizza-fatia.jpg');
     background-size: cover;
     background-position: top;
     width: auto;
